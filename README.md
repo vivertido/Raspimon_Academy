@@ -1,14 +1,29 @@
+# Raspimon Academy
+The Raspimon Academy project was developed by Google's Code Next program for CS Ed Week (2020). This guide will help you get started. You will need a Raspberry Pi, and a SenseHat unit, along with an SD card with the [Raspberry Pi OS](https://www.raspberrypi.org/software/). 
 
-# Welcome
-
-Welcome to your Raspimon on your Raspberry Pi. This quick guide will help you get started. 
+The activities and challenges will teach you some basic Python programming, as well as some concepts in computer vision and creative computing. Happy coding! 
  
 ## How to download code from GitHub
 - Locate the green "Code" button on the right side of the page near the "About" section
+   - **Note*: Use your touchscreen to navigate*
 - Select that option and download zip
 - Extract zip files to /home/pi/Desktop
 
-## What is in this folder?
+## Add the Libraries
+If you are not using this  [Raspimon Kit](https://www.pishop.us/product/raspimon-academy-kit/), then you will need to install a few Python libraries. After you download this repo, follow these steps in your Terminal (the Terminal Application is found on the main Menu bar):
+
+Go to the Raspimon_Academy directory, which should be on your Desktop by entering this command after the $:
+```bash
+$ cd /home/pi/Desktop/Raspimon_Academy
+
+```
+Install the libraries with this script:
+```bash
+$ bash setup.sh
+
+```
+
+## What is in this repo?
 
 The Raspimon folder on the Desktop of your Pi contains everything you need. There are four stage folders, each with different activities or training labs for your Raspimon. Begin at Stage1, however feel free to explore the other files, if you are curious. 
 
